@@ -155,6 +155,17 @@ main > div{
     
 }
 
+#button:hover{
+    animation-name: opacity;
+    animation-fill-mode: forwards;
+}
+
+@keyframes opacity {
+    100% {
+        opacity: 1;
+    }
+}
+
 #block-3{
     display: flex;
     flex-direction: column;
@@ -188,7 +199,7 @@ main > div{
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
 
     body{
         height: 87rem;
